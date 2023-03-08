@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class AverageMarks {
+
+	public static void main(String[] args) {
+		
+		
+		//First let's take scanner function to take inputs from the user
+    
+		Scanner s = new Scanner(System.in);
+    
+		//To take name as a input we have to take consider char input
+    
+		char name = s.next().charAt(0);
+    
+		//Taking m1, m2, m3 integer as a input
+    
+		int m1,m2,m3;
+		m1= s.nextInt();
+		m2= s.nextInt();
+		m3= s.nextInt();
+		
+		//average formula , average is a variable but an integer
+    
+		int average = (m1+m2+m3)/3 ;
+		
+		
+		System.out.println(name);
+		System.out.println(average);
+
+	}
+
+}
