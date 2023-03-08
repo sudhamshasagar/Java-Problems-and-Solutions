@@ -1,0 +1,36 @@
+public class AirthmaticOperatorsExamples {
+	public static void main(String[] args) {
+        int a = 10;
+        int b = 3;
+        
+        // Addition operator (+)
+        int sum = a + b;
+        System.out.println(sum);
+        
+        // Subtraction operator (-)
+        int difference = a - b;
+        System.out.println(difference);
+        
+        // Multiplication operator (*)
+        int product = a * b;
+        System.out.println(product);
+        
+        // Division operator (/)
+        double quotient = (double) a / b;
+        System.out.println(quotient);
+        
+        // Modulus operator (%)
+        int remainder = a % b;
+        System.out.println(remainder);
+        
+        // Increment operator (++)
+        int c = 5;
+        c++;
+        System.out.println(c);
+        
+        // Decrement operator (--)
+        int d = 8;
+        d--;
+        System.out.println( d);
+	}
+}
