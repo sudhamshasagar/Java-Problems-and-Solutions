@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class CharacterCase {
+
+	public static void main(String[] args) {
+  //Take Scanner function which is required to get inputs from the user
+		Scanner s = new Scanner(System.in);
+  //Take character as a input 
+		char name = s.next().charAt(0);
+ //Using If, ElseIf fucntion   
+		if(Character.isUpperCase(name))
+			System.out.println("Charcater is Upper Case "  +  1);
+		else if(Character.isLowerCase(name)) {
+			System.out.println("Charcater is Lower  Case " + 0);
+		}else {
+			System.out.println("Input is not a character " + -1);
+		}
+
+	}
+
+}
