@@ -23,10 +23,10 @@ public class Fahrenheit_To_CelsiusTable {
 } 
 
 
-// Let's take F,E,W as a input from the user, The program should run till the end value E from s starting value F with a difference of W 
+// Let's take F,E,W as a input from the user, The program should run till the end value E from starting value F with a difference of W 
 so we have to use While loop for that.
 Formula to convert Fahrenheit to Celsius is ((5*(F-32))/9)
-While considering the variables take C also along with the F,E,W as we need to declare the variable becfore using it
+While considering the variables take C also along with the F,E,W as we need to declare the variable before using it
 In a print function we used a string \t which will work as a tab so that output will be in a table format
 Example :
 Input
