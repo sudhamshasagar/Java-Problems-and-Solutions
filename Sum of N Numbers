@@ -1,0 +1,22 @@
+package fundamentals;
+
+import java.util.Scanner;
+
+public class Sum_of_N_Numbers {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int  n;
+		n = s.nextInt();
+		int i = 1;
+		int sum = 0;
+		while (i<=n) {
+			sum = sum+i;
+			i = i+1;
+		}
+		System.out.println(sum);
+	}
+	
+}
+//i = next number to be added
+//n = input from the user
