@@ -1,0 +1,17 @@
+package fundamentals;
+
+import java.util.Scanner;
+
+public class Multiplication_Table {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int n,i;
+		i = 1;
+		n= s.nextInt();
+		while (i<=n) {
+			System.out.println(i*n);
+			i=i+1;
+		}
+	}
+}
